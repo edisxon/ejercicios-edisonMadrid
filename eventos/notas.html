@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Notas</title>
+    <link rel="stylesheet" href="./notas.css">
+</head>
+<body>
+    <header>
+        <nav style="gap: 20px; display: flex; margin-bottom: 30px;">
+            <div><a href="./masaCorporal.html">Calcular IMC</a></div>
+            <div><a href="./divisa.html">Convertir Divisa</a></div>
+            <div><a href="./notas.html">Notas</a></div>
+        </nav>
+        <h1>Aplicación de Notas</h1>
+    </header>
+    <main>
+        <div class="note-form">
+            <input type="text" id="note-title" placeholder="Título">
+            <textarea id="note-text" placeholder="Texto"></textarea>
+            <button id="add-note">Guardar Nota</button>
+            <button id="clear-fields">Limpiar</button>
+        </div>
+
+        <div class="filters">
+            <input type="text" id="filter-text" placeholder="Buscar texto...">
+            <label>
+                <input type="checkbox" id="filter-completed"> Mostrar solo completadas
+            </label>
+        </div>
+
+        <div id="notes-container" class="notes-container">
+        
+        </div>
+    </main>
+    <script src="./notas.js"></script>
+</body>
+</html>
