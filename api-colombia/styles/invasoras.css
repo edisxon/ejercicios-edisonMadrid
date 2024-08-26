@@ -1,0 +1,36 @@
+
+h1{
+    font-size: 3em;
+    color: rgb(255 205 0);
+}
+
+main{
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: red;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.risk1 {
+    background-color: blue;
+}
+.risk2 {
+    background-color: green
+}
+img {
+    width: 200px;
+}
+
+
+
+
+

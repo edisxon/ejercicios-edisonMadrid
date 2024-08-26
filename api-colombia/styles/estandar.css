@@ -1,0 +1,25 @@
+html,body {
+    height: 100%;
+}
+nav, footer{
+    background-color: rgb(27, 38, 59);
+}
+
+.bandera{
+    width: 35px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 225, 221);
+    text-decoration: none;
+    background-color: rgb(13, 27, 42);
+}
+main{
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
